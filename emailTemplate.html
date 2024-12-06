@@ -1,0 +1,77 @@
+<body
+  style="
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', Helvetica, Arial,
+      sans-serif;
+    line-height: 1.65;
+    height: 100%;
+    background: #efefef;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    width: 100% !important;
+  "
+>
+  <table
+    class="body-wrap"
+    style="
+      margin: 0 auto;
+      padding: 0;
+      font-size: 100%;
+      font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', Helvetica,
+        Arial, sans-serif;
+      line-height: 1.65;
+      border-collapse: collapse;
+      width: 100%;
+    "
+  >
+    <tr>
+      <td
+        class="container content"
+        style="padding: 30px 35px; background: #030014"
+      >
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/pictures-3e80f.appspot.com/o/DocX.png?alt=media&token=9209ba2e-0760-47a1-b1ff-062bf6d24d63"
+          alt="DocX Banner"
+          style="display: block; max-width: 100%; max-height: 400px"
+        />
+        <h2 style="font-size: 28px; color: #b6b2ff; margin-bottom: 20px">
+          Hello {{.Email}},
+        </h2>
+        <p style="color: #b6b2ff; margin-bottom: 20px">
+          Welcome to the future of document creation at Teamscribe Arena! 🚀 Get ready for
+          an extraordinary journey where your document needs meet innovative
+          solutions.
+          <br /><br />
+          Your gateway to a seamless document experience is just one step away.
+          Verify your email now and unlock a world of unlimited possibilities.
+        </p>
+        <table style="width: 100%; margin-bottom: 20px">
+          <tr>
+            <td align="center">
+              <a
+                href="{{ .ConfirmationURL }}"
+                class="button"
+                style="
+                  color: white;
+                  display: inline-block;
+                  background: #7000ff;
+                  border: 2px solid #7000ff;
+                  padding: 10px 20px;
+                  font-weight: bold;
+                  border-radius: 4px;
+                  text-decoration: none;
+                "
+                >Click to Confirm Email</a
+              >
+            </td>
+          </tr>
+        </table>
+        <p style="color: #b6b2ff; margin-bottom: 20px; font-size: 16px">
+          <em>Excitedly,<br />Team TSA</em>
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
